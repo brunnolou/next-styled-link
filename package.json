@@ -1,6 +1,6 @@
 {
   "name": "next-styled-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Next.js Link component to be styled with styled-components",
   "main": "index.js",
   "scripts": {
