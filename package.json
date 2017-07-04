@@ -1,0 +1,30 @@
+{
+  "name": "next-styled-link",
+  "version": "1.0.0",
+  "description": "Next.js Link component to be styled with styled-components",
+  "main": "index.js",
+  "scripts": {
+    "start": "neutrino start --use neutrino-preset-airbnb-base neutrino-preset-node",
+    "build": "neutrino build --use neutrino-preset-airbnb-base neutrino-preset-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Next.js",
+    "Link",
+    "styled-components",
+    "zeit",
+    "next",
+    "style"
+  ],
+  "author": "Bruno Lourenco",
+  "license": "MIT",
+  "peerDependencies": {
+    "neutrino-preset-node": "^6.1.4",
+    "react": "^15.5.4",
+    "next": "^3.0.1-beta.8"
+  },
+  "devDependencies": {
+    "neutrino": "^6.1.4",
+    "neutrino-preset-airbnb-base": "^6.1.4"
+  }
+}
