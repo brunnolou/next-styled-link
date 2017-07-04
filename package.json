@@ -19,12 +19,12 @@
   "author": "Bruno Lourenco",
   "license": "MIT",
   "peerDependencies": {
-    "neutrino-preset-node": "^6.1.4",
-    "react": "^15.5.4",
-    "next": "^3.0.1-beta.8"
+    "react": "^15.x",
+    "next": "^3.x"
   },
   "devDependencies": {
     "neutrino": "^6.1.4",
+    "neutrino-preset-node": "^6.1.4",
     "neutrino-preset-airbnb-base": "^6.1.4"
   }
 }

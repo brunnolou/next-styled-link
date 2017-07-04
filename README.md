@@ -30,7 +30,3 @@ Styled components are not `child.type = a`.
 ```js
 const Link = require('next-styled-link');
 ```
-Instead of
-```js
-const Link = require('next/link');
-```

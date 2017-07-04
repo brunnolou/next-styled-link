@@ -21,9 +21,9 @@ class Link extends NextLink {
 
     // If child is an <a> tag and doesn't have a href attribute we specify it so that
     // repetition is not needed by the user
+
     // if (child.type === 'a' && !('href' in child.props)) {
     props.href = as || href;
-    console.log('props.href: ', props.href);
     // }
 
     // Add the ending slash to the paths. So, we can serve the
