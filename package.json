@@ -1,11 +1,11 @@
 {
   "name": "next-styled-link",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Next.js Link component to be styled with styled-components",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "repository": "brunnolou/next-styled-link",
   "scripts": {
-    "start": "neutrino start --use neutrino-preset-airbnb-base neutrino-preset-node",
-    "build": "neutrino build --use neutrino-preset-airbnb-base neutrino-preset-node",
+    "build": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,12 +19,18 @@
   "author": "Bruno Lourenco",
   "license": "MIT",
   "peerDependencies": {
-    "react": "^15.x",
-    "next": "^3.x"
+    "next": "^3.x",
+    "react": "^15.x"
   },
   "devDependencies": {
-    "neutrino": "^6.1.4",
-    "neutrino-preset-node": "^6.1.4",
-    "neutrino-preset-airbnb-base": "^6.1.4"
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "next": "^3.0.1-beta.9",
+    "react": "^15.5.4"
   }
 }
